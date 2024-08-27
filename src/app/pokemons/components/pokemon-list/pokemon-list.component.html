@@ -5,8 +5,9 @@
     <pokemon-card [pokemon]="pokemon" />
   }
 
-  <!-- Empty pokemons -->
-  <!-- <div class="col-span-5 text-center boeder-white h-28 flex justify-center items-center">
-    No pokemons data..
-  </div> -->
+  @empty {
+    <div class="col-span-5 text-center boeder-white h-28 flex justify-center items-center">
+      No pokemons data..
+    </div>
+  }
 </div>
